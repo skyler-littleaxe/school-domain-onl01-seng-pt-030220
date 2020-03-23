@@ -21,7 +21,7 @@ class School
   
   #realized this also works 
   roster[grade_lvl] ||= []
-  roster[grade] << student
+  roster[grade_lvl] << student
   
     #end
   end
