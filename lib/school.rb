@@ -27,11 +27,13 @@ class School
    end
    
    def sort
+     sort_students = {}
+     roster.each do |grade, students|
+       sort_students[grade_lvl] = students.sort
+     end
      
 
-   roster.values.sort!
-   roster.to_h
-   roster
+   
   
     
     end
