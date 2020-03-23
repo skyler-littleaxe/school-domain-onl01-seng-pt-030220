@@ -27,8 +27,10 @@ class School
    end
    
    def sort
+     
 
    roster.values.sort!
+   roster.to_h
    roster
   
     
